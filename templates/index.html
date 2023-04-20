@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Flask App</title>
+  </head>
+  <body>
+    <h1>Locale Operations</h1>
+    <div style="border: 2px solid red; margin-top: 2px">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="upload">Upload file on IPFS:</label>
+        <input type="file" name="file" />
+        <br />
+        <br />
+        <input type="submit" value="Upload" />
+      </form>
+    </div>
+
+    <div style="border: 2px solid red; margin-top: 2px">
+      <form action="/add_node" method="post">
+        <label for="new_node">New node:</label>
+        <select name="new_node" id="new_node">
+          <option value="Product1">Product1</option>
+          <option value="Product2">Product2</option>
+          <option value="Product3">Product3</option>
+        </select>
+        <input type="submit" value="Add node" />
+      </form>
+    </div>
+    <div style="border: 2px solid red; margin-top: 2px">
+      <form action="/check_inclusion" method="post">
+        <label for="new_node">Token:</label>
+        <input type="text" name="token" />
+        <br />
+        <br />
+        <input type="submit" value="Get Proof of Inclusion" />
+      </form>
+    </div>
+    <div style="border: 2px solid red; margin-top: 2px">
+      <form action="/spend_token" method="post">
+        <label for="new_node">Token:</label>
+        <input type="text" name="token" />
+        <br />
+        <br />
+        <input type="submit" value="Spend Token" />
+      </form>
+    </div>
+    <div style="border: 2px solid red; margin-top: 2px">
+      <form action="/get_tree" method="post">
+        <label for="get_tree">Get Tree:</label>
+        <input type="submit" value="get_tree node" />
+      </form>
+    </div>
+  </body>
+</html>
