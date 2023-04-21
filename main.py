@@ -207,7 +207,7 @@ def spend_token():
 
     link_curr_token_list = _upload_file(token_list_filename)
     link_curr_merkle_tree = _upload_file(merkle_tree_filename)
-    return render_template('res.html', output=f"token {token_hex} spent\nThe merkle tree is at {link_curr_merkle_tree}")
+    return render_template('res.html', output=f"token {token_hex} spent\nThe merkle tree is at {link_curr_merkle_tree}/{merkle_tree_filename}")
 
 
 app.run()
