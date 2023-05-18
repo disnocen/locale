@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@web3-storage/w3cli": "^3.0.0"
+    "@web3-storage/w3cli": "^3.0.0",
+    "ganache-cli": "^6.12.2"
   }
 }

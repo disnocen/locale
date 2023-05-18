@@ -1,0 +1,76 @@
+/*############################################
+
+        Local Loyalty Tokens Styling
+
+  ############################################ */
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+body {
+    /* display: flex; to center our content */
+    justify-content: center;
+    align-items: center;
+    background: url(/static/img/cafe.jpeg) no-repeat center center/ cover;
+    height: 100vh; /*whole height of the browser */
+}
+
+.loyalty-tokens {
+    height: 700px;
+    width: 30%;
+    background-color: rgb(234, 221, 202);
+    padding: 20px;
+    font-family: 'Playfair Display';
+    font-size: 1.3rem;
+    margin: 100px 100px;
+    /* border: 10px solid rgb(85, 53, 6); */
+    box-shadow: 10px rgba(61, 60, 60, 0.3);
+    border-radius: 20px;
+}
+
+.token-title {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+}
+
+.token-actions{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    
+}
+
+.proof-of-inclusion, .check-token, .spend-token, .get-tree-node, .add-token {
+    margin-top: 20px;
+    border-top: 1px solid rgb(89, 56, 7);
+    /* background-color: rgb(229, 165, 68);
+    border-radius: 20px; */
+    padding: 10px;
+}
+
+input[type=text], input[type=submit]{
+    margin-top: 10px;
+
+}
+
+input[type=submit]{
+    box-sizing: border-box;
+    background-color: rgb(89, 56, 7);
+    color: rgb(234, 221, 202);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+select, input[type=text] {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(89, 56, 7);
+    background-color: rgb(234, 221, 202);
+    font-size: 1.1rem;
+}

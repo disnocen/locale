@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/local/bin/python3
 from flask import Flask, request, render_template, jsonify
 from pymerkle import MerkleTree, verify_inclusion
 # import pickle
