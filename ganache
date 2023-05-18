@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./node_modules/.bin/ganache-cli -m "wing digital enable quick version return flight tent praise dial blade exhibit"
